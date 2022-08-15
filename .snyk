@@ -2,4 +2,4 @@
  version: v1.25.0
  exclude:
  global:
-   - "**/*pom.xml" 
+   - "**/*.xml" 
