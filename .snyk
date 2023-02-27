@@ -3,5 +3,5 @@
 # global:
 #   - todolist-web-struts/** 
 policies:
-   - on: ['NoHardcodedCredentials','UnprotectedStorageofCredentials']
-     action: low-severity
+   - if: ['ReturnsPassword']
+     then: low-severity
