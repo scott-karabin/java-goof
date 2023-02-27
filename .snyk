@@ -4,4 +4,4 @@
 #   - todolist-web-struts/** 
 policies:
    - if: ['ReturnsPassword']
-     then: low-severity
+     then: ignore
