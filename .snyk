@@ -1,7 +1,7 @@
 # Snyk (https://snyk.io) policy file
-#exclude:
-# global:
-#   - todolist-web-struts/** 
+exclude:
+ global:
+   - todolist-web-struts/** 
 policies:
    - if: ['ReturnsPassword']
      then: low-severity
