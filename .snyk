@@ -3,5 +3,5 @@
 # global:
 #   - todolist-web-struts/** 
 policies:
-   - if: ['CWE-256']
+   - if: ['NoHardcodedCredentials','NoHardcodedPasswords']
      then: high-priority
