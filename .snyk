@@ -3,5 +3,5 @@
 # global:
 #   - todolist-web-struts/** 
 policies:
-   - on: ['CWE-256']
+   - if: ['CWE-256']
      action: high-priority
