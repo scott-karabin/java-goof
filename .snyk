@@ -1,4 +1,7 @@
 # Snyk (https://snyk.io) policy file
 exclude:
  global:
-   - todolist-web-struts/** 
+#   - todolist-web-struts/** 
+ policies:
+   - on: ['CWE-256']
+     action: high-priority
